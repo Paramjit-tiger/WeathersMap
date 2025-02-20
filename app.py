@@ -24,6 +24,7 @@ from modules.ui_components import render_weather_card, set_background, render_fo
 from modules.utils import setup_logging, celsius_to_fahrenheit, celsius_to_kelvin
 
 st.set_page_config(page_title="Weather App", page_icon="assets/weather_icon.png", layout="centered")
+set_background()
 setup_logging()
 logging.info("Weather app started.")
 
