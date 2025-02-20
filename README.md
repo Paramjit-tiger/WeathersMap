@@ -60,7 +60,24 @@ Contributions are welcome! Feel free to open an issue or submit a pull request.
 
 This project is licensed under the MIT License.
 
+# Sample
+
+<table align="center">
+<tr>
+    <td align="center">&nbsp;<img src="https://github.com/Paramjit-tiger/assets/raw/master/1.png" alt="parmishh" /></td>
+ <td align="center">&nbsp;<img src="https://github.com/Paramjit-tiger/assets/raw/master/2.png"  alt="parmishh" /></td>
+</tr>
+</table>
+<table align="center">
+<tr>
+    <td align="center">&nbsp;<img  src="https://github.com/Paramjit-tiger/assets/raw/master/3.png" alt="parmishh" /></td>
+ <td align="center">&nbsp;<img  src="https://github.com/Paramjit-tiger/assets/raw/master/4.png"  alt="parmishh" /></td>
+</tr>
+</table>
+
 ---
 
 🚀 **Developed with ❤️ using Streamlit**
+
+
 
