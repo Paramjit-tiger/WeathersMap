@@ -44,6 +44,10 @@ Try the Deployment: https://weathermap.streamlit.app/
    ```sh
    pip install -r requirements.txt
    ```
+3. Create config.py and add openweather API Key:
+   ```sh
+      API_KEY="YOUR API KEY"
+   ```
 
 ## Usage
 
