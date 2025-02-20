@@ -3,6 +3,21 @@
 A simple web-based Weather App built with Streamlit that fetches real-time weather data and displays current temperature, along with a weekly forecast. Users can choose temperature units (Celsius, Fahrenheit, or Kelvin) for better readability.
 Try the Deployment: https://weathermap.streamlit.app/
 
+## 👀Samples
+
+<table align="center">
+<tr>
+    <td align="center">&nbsp;<img src="https://github.com/Paramjit-tiger/assets/raw/master/1.png" alt="parmishh" /></td>
+ <td align="center">&nbsp;<img src="https://github.com/Paramjit-tiger/assets/raw/master/2.png"  alt="parmishh" /></td>
+</tr>
+</table>
+<table align="center">
+<tr>
+    <td align="center">&nbsp;<img  src="https://github.com/Paramjit-tiger/assets/raw/master/3.png" alt="parmishh" /></td>
+ <td align="center">&nbsp;<img  src="https://github.com/Paramjit-tiger/assets/raw/master/4.png"  alt="parmishh" /></td>
+</tr>
+</table>
+
 ## 🪶Features
 
 - Fetch current weather for a given city
@@ -59,21 +74,6 @@ Contributions are welcome! Feel free to open an issue or submit a pull request.
 ## License
 
 This project is licensed under the MIT License.
-
-# Sample
-
-<table align="center">
-<tr>
-    <td align="center">&nbsp;<img src="https://github.com/Paramjit-tiger/assets/raw/master/1.png" alt="parmishh" /></td>
- <td align="center">&nbsp;<img src="https://github.com/Paramjit-tiger/assets/raw/master/2.png"  alt="parmishh" /></td>
-</tr>
-</table>
-<table align="center">
-<tr>
-    <td align="center">&nbsp;<img  src="https://github.com/Paramjit-tiger/assets/raw/master/3.png" alt="parmishh" /></td>
- <td align="center">&nbsp;<img  src="https://github.com/Paramjit-tiger/assets/raw/master/4.png"  alt="parmishh" /></td>
-</tr>
-</table>
 
 ---
 
