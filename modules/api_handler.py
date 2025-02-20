@@ -1,10 +1,20 @@
 import requests
 import logging
 from datetime import datetime, timezone
-import streamlit as st
+from config import API_KEY
 
-API_KEY = st.secrets["api"]["API_KEY"]
 def get_weather(city):
+    """
+    Fetches the current weather for a given city using the OpenWeatherMap API.
+    
+    Args:
+        city (str): Name of the city to retrieve weather information for.
+    
+    Returns:
+        dict: Weather information including city name, temperature, humidity, 
+              condition, wind speed, weather icon URL, and timestamp.
+        None: If the API request fails.
+    """
     BASE_URL = "http://api.openweathermap.org/data/2.5/weather"
     params = {"q": city, "appid": API_KEY, "units": "metric"}
     
@@ -32,6 +42,16 @@ def get_weather(city):
 BASE_URL = "https://api.openweathermap.org/data/2.5/forecast"
 
 def get_weekly_forecast(city):
+    """
+    Fetches the weekly weather forecast for a given city using the OpenWeatherMap API.
+    
+    Args:
+        city (str): Name of the city to retrieve the forecast for.
+    
+    Returns:
+        list: A list of dictionaries containing daily forecast dates and temperatures.
+        None: If the API request fails.
+    """
     params = {
         "q": city,
         "appid": API_KEY,
