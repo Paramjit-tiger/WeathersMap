@@ -1,0 +1,5 @@
+__pycache__/
+weather_app.log
+config.py
+.vscode/
+
